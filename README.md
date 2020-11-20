@@ -119,7 +119,7 @@ Elm doesn't support multiple body declarations for functions, so instead you hav
 Example:
 ```
 	head [] = error
-	head (X:xs) = x
+	head (x:xs) = x
 ```
 becomes
 ```
